@@ -4,16 +4,42 @@
 
 > Please let me know if there is a copyright issue: lufuhao@henu.edu.cn
 
+    卢福浩(Fu-Hao Lu)
+    
+    Professor, PhD
+    
+    作物逆境适应与改良国家重点实验室，生命科学学院
+    
+    State Key Labortory of Crop Stress Adaptation and Improvement
+    
+    College of Life Science
+    
+    河南大学金明校区
+    
+    Jinming Campus, Henan University
+    
+    开封 475004， 中国
+    
+    Kaifeng 475004, P.R.China
+    
+    E-mail: LUFUHAO@HENU.EDU.CN
 
 
-#Original docs
 
+## Revision history
+--------------
+> 20210929 Remove getopts.pl dependency
+
+
+
+# Original docs
+---------------
 SSPACE Standard v3.0 Marten Boetzer - Walter Pirovano, Aug 2011
 email: walter.pirovano@baseclear.nl
 
 
 ## Description
-
+--------------
 SSPACE is a script able to extend and scaffold pre-assembled contigs using one or more mate pairs or paired-end libraries, or even a combination. 
 
 ## Implementation and requirements
@@ -29,6 +55,7 @@ SSPACE is a script able to extend and scaffold pre-assembled contigs using one o
   + [x] Text::Wrap
 + [x] [Bowtie](http://bowtie-bio.sourceforge.net)
 + [x] [BWA](http://bio-bwa.sourceforge.net/)
++ [x] [GraphViz](www.graphviz.org): dot
 
 SSPACE is built based on SSAKE. Code of SSAKE is changed to be able to extend and scaffold pre-assembled contigs for multiple paired reads libraries.
 
@@ -545,9 +572,3 @@ Most common used output format of read mappers are .sam format and their equival
 - [ ] Only input of .fasta or .fastq is possible.
 
 > For conversion to these formats use the fq_all2std.pl function in the ./tools directory.
-
-
-
-## Revision history
-
-> 20210929 Remove getopt.pl dependency
